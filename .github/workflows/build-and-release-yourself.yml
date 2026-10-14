@@ -3,8 +3,8 @@ name: Create IPA Packages
 on:
   workflow_dispatch:
     inputs:
-      ipa_url:
-        description: "https://filebin.net/tzt321nc06ipdngg/com.spotify.client_9.1.90_und3fined.ipa"
+      ipa_url: "https://filebin.net/tzt321nc06ipdngg/com.spotify.client_9.1.90_und3fined.ipa"
+        description: "Decompiled IPA loc"
         default: ""
         required: true
         type: string
